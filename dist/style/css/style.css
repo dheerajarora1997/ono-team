@@ -1,0 +1,18 @@
+/* Error: The target selector was not found.
+ * Use "@extend %flex-center !optional" to avoid this error.
+ *    ,
+ * 40 |   @extend %flex-center;
+ *    |   ^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\base\_normalize.scss 40:3  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: The target selector was not found.\aUse "@extend %flex-center !optional" to avoid this error.\a    \2577 \a 40 \2502    @extend %flex-center;\d\a    \2502    ^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\base\\_normalize.scss 40:3  root stylesheet';
+}
