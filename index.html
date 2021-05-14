@@ -1,17 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./dist/style/css/style.css">
+    <link rel="stylesheet" href="./dist/style/css/pages/landing.css">
 </head>
+
 <body>
-    <h1>Project Basic setup</h1>
-    <form action="https://formsubmit.co/onwebdheeraj@gmail.com" method="POST">
-        <input type="text" name="name" required>
-        <input type="email" name="email" required>
-        <button type="submit">Send</button>
-   </form>
+    <main>
+        <header>
+            <div class="top-bar bg-primary py-2 d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-7">
+                            <a href="mailto:overandortorg@gmail.com" class="text-white small mr-2">
+                                <i class="fa fa-envelope-o"></i>
+                                overandortorg@gmail.com
+                            </a>
+                            <a href="tel:+919992993949" class="text-white small">
+                                <i class="fa fa-phone"></i>
+                                +91 999 299 3949
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-5 text-md-right">
+                            <a href="javascript:void(0);" class="text-white px-2 mr-1"> <i class="fa fa-facebook"
+                                    aria-hidden="true"></i> </a>
+                            <a href="javascript:void(0);" class="text-white px-2 mr-1"> <i class="fa fa-twitter"
+                                    aria-hidden="true"></i> </a>
+                            <a href="javascript:void(0);" class="text-white px-2 mr-1"> <i class="fa fa-instagram"
+                                    aria-hidden="true"></i> </a>
+                            <a href="javascript:void(0);" class="text-white px-2 mr-1"> <i class="fa fa-linkedin"
+                                    aria-hidden="true"></i> </a>
+                            <a href="javascript:void(0);" class="text-white px-2 mr-1"> <i class="fa fa-youtube"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <!-- <h1>Over and Out Organisation</h1> -->
+                        <img src="./dist/img/logo-web-min.png" alt="Over and Out Organisation" class="img-fluid"
+                            aria-hidden="true" />
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="javascript:void(0);">Home <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0);">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="javascript:void(0);">Action</a>
+                                    <a class="dropdown-item" href="javascript:void(0);">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="javascript:void(0);">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="javascript:void(0);" tabindex="-1"
+                                    aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <!-- <marquee class="bg-primary" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">Would you like to do a work for good change? | Join us now ! | Alone we can only initiate together we can create magics. - <a href="javascript:void(0);" target="_blank" class="text-white">Join Now</a></marquee> -->
+            <section class="landing-section bg-light">
+                <div id="landingPageCarousal" class="carousel slide" data-ride="carousel">
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#landingPageCarousal" data-slide-to="0" class="active"></li>
+                        <li data-target="#landingPageCarousal" data-slide-to="1"></li>
+                        <li data-target="#landingPageCarousal" data-slide-to="2"></li>
+                    </ol> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row align-items-end">
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="pb-5">
+                                            <h2 class="font-weight-normal h1 mb-3">Where can I get some?</h2>
+                                            <p class="font-weight-normal mb-3">There are many variations of passages of Lorem Ipsum available, but the
+                                                majority have suffered alteration in some form, by injected humour, or
+                                                randomised words which don't look even slightly believable.</p>
+                                            <a href="javascript:void(0)" class="btn btn-primary px-2 px-md-4 mr-md-3 ">Donate
+                                                Now</a>
+                                            <a href="javascript:void(0)" class="btn btn-outline-primary px-2 px-md-4">Become a
+                                                Volunteer</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <picture class="d-none d-lg-block">
+                                            <source media="(min-width: 768px)" srcset="./dist/img/banner-min.webp"
+                                                type="image/webp">
+                                            <source media="(min-width: 768px)" srcset="./dist/img/banner-min.png"
+                                                type="image/png">
+                                            <img src="./dist/img/banner-min.png" class="img-fluid" alt="">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"></div>
+                                    <div class="col-sm-12 col-md-6"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"></div>
+                                    <div class="col-sm-12 col-md-6"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                        <!-- <a class="carousel-control-prev" href="#landingPageCarousal" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#landingPageCarousal" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a> -->
+                    </div>
+                </div>
+            </section>
+            <section class="py-5 about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center mb-4">
+                            <h3 class="h2 font-weight-normal col-xl-6 col-lg-8 mx-auto mb-4">India’s current Slum Population is bigger than the Entire UK.</h3>
+                            <p class="h5 font-weight-normal">
+                                These overpopulated urban towns with
+                                <span class="text-primary">lack of hygiene and education</span>  conceal a lot of our young talents. There is a real-time need for better <span class="text-primary">Govt. Policies </span> and collaboration efforts from NGOs for the upliftment of all sections of society. <span class="text-primary">Over and Out </span> aims to provide such individuals with an interactive platform which will be easily accessible to them.
+                            </p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 text-center">
+                            <div class="info-element mb-md-0 mb-4 col-xl-7 col-lg-8 col-md-9 col-5 mx-auto">
+                                <img src="./dist/img/donation.jpg" class="info-img img-fluid rounded-circle shadow-lg border border-light" alt="Support Hopeful">
+                                <div class="info-icon bg-primary p-2 rounded-lg col-xl-5 col-lg-4 col-md-6 col-4 mx-auto">
+                                    <img src="./dist/img/charity.png" class="img-fluid" alt="Charity">
+                                </div>
+                            </div>
+                            <h3 class="h4 mt-5">Support Hopefully</h3>
+                            <a href="javascript:void(0);" class="btn btn-link">Donate Now <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <div class="col-sm-12 col-md-4 text-center">
+                            <div class="info-element mb-md-0 mb-4 col-xl-7 col-lg-8 col-md-9 col-5 mx-auto">
+                                <img src="./dist/img/collaboration.jpg" class="info-img img-fluid rounded-circle shadow-lg border border-light" alt="Collaborate With Us">
+                                <div class="info-icon bg-primary p-2 rounded-lg col-xl-5 col-lg-4 col-md-6 col-4 mx-auto">
+                                    <img src="./dist/img/collaboration-icon.png" class="img-fluid" alt="Collaborate With Us">
+                                </div>
+                            </div>
+                            <h3 class="h4 mt-5">Collaborate With Us</h3>
+                            <a href="javascript:void(0);" class="btn btn-link">Donate Now <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <div class="col-sm-12 col-md-4 text-center">
+                            <div class="info-element mb-md-0 mb-4 col-xl-7 col-lg-8 col-md-9 col-5 mx-auto">
+                                <img src="./dist/img/volunteer.jpg" class="info-img img-fluid rounded-circle shadow-lg border border-light" alt="Start Changing Life">
+                                <div class="info-icon bg-primary p-2 rounded-lg col-xl-5 col-lg-4 col-md-6 col-4 mx-auto">
+                                    <img src="./dist/img/join.png" class="img-fluid" alt="Start Changing Life">
+                                </div>
+                            </div>
+                            <h3 class="h4 mt-5">Start Changing Life</h3>
+                            <a href="javascript:void(0);" class="btn btn-link">Donate Now <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer></footer>
+    </main>
 </body>
+<script src="dist/js/vendor/jquery/jquery.min.js"></script>
+<script src="dist/js/vendor/bootstrap-js/popper.min.js"></script>
+<script src="dist/js/vendor/bootstrap-js/bootstrap.min.js"></script>
+
 </html>
