@@ -1,0 +1,209 @@
+@import "../../vendor/font-awesome-scss/scss/font-awesome.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: 'Font Icon';
+    src:  url('../fonts/font-icon.eot?primary');
+    src:  url('../fonts/font-icon.eot?primary#iefix') format('embedded-opentype'),
+      url('../fonts/font-icon.ttf?primary') format('truetype'),
+      url('../fonts/font-icon.woff?primary') format('woff'),
+      url('../fonts/font-icon.svg?primary#font-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+.fi {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Font Icon' !important;
+    display: inline-block;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fi-coin-stacks:before {
+    content: "\e92b";
+  }
+  .fi-stopwatch:before {
+    content: "\e92c";
+  }
+  .fi-correction:before {
+    content: "\e92d";
+  }
+  .fi-share-people:before {
+    content: "\e92e";
+  }
+  .fi-share:before {
+    content: "\e92f";
+  }
+  .fi-price-tag:before {
+    content: "\e930";
+  }
+  .fi-premium:before {
+    content: "\e931";
+  }
+  .fi-vip:before {
+    content: "\e932";
+  }
+  .fi-album:before {
+    content: "\e933";
+  }
+  .fi-video-player:before {
+    content: "\e934";
+  }
+  .fi-live-streaming:before {
+    content: "\e935";
+  }
+  .fi-play-square:before {
+    content: "\e936";
+  }
+  .fi-sale:before {
+    content: "\e937";
+  }
+
+  .fi-view:before {
+    content: "\e90f";
+  }
+  .fi-wallet:before {
+    content: "\e922";
+  }
+  .fi-coins:before {
+    content: "\e923";
+  }
+  .fi-like:before {
+    content: "\e924";
+  }
+  .fi-youtube-play:before {
+    content: "\e925";
+  }
+  .fi-website:before {
+    content: "\e926";
+  }
+  .fi-youtube:before {
+    content: "\e927";
+  }
+  .fi-desktop-video:before {
+    content: "\e928";
+  }
+  .fi-community:before {
+    content: "\e929";
+  }
+  .fi-subscribe:before {
+    content: "\e92a";
+  }
+
+  .fi-faq:before {
+    content: "\e921";
+  }
+  .fi-call:before {
+    content: "\e91e";
+  }
+  .fi-sms:before {
+    content: "\e91f";
+  }
+  .fi-mail:before {
+    content: "\e920";
+  }
+  .fi-verified:before {
+    content: "\e91d";
+  }
+  .fi-radio:before {
+    content: "\e919";
+  }
+  .fi-radio-checked:before {
+    content: "\e91a";
+  }
+  .fi-check-box:before {
+    content: "\e91b";
+  }
+  .fi-check-box-checked:before {
+    content: "\e91c";
+  }
+  .fi-send:before {
+    content: "\e917";
+  }
+  .fi-attachment:before {
+    content: "\e918";
+  }
+  .fi-chat-queries:before {
+    content: "\e914";
+  }
+  .fi-queries-advanced:before {
+    content: "\e915";
+  }
+  .fi-support:before {
+    content: "\e916";
+  }
+  .fi-deg-360:before {
+    content: "\e913";
+  }
+  .fi-change-password:before {
+    content: "\e910";
+  }
+  .fi-search:before {
+    content: "\e911";
+  }
+  .fi-Download:before {
+    content: "\e912";
+  }
+  .fi-arrow:before {
+    content: "\e900";
+  }
+  .fi-long-arrow:before {
+    content: "\e901";
+  }
+
+  .fi-long-arrow-left {
+    &:before {
+      content: "\e901";
+      @extend .d-inline-block;
+      @include rotate(180deg);
+    }
+  }
+
+  .fi-chat-faq:before {
+    content: "\e902";
+  }
+  .fi-dashboard:before {
+    content: "\e903";
+  }
+  .fi-download:before {
+    content: "\e904";
+  }
+  .fi-history:before {
+    content: "\e905";
+  }
+  .fi-file:before {
+    content: "\e906";
+  }
+  .fi-payment:before {
+    content: "\e907";
+  }
+  .fi-user-o:before {
+    content: "\e908";
+  }
+  .fi-queries:before {
+    content: "\e909";
+  }
+  .fi-navigation:before {
+    content: "\e90a";
+  }
+  .fi-notifications:before {
+    content: "\e90b";
+  }
+  .fi-finder:before {
+    content: "\e90c";
+  }
+  .fi-sign-out:before {
+    content: "\e90d";
+  }
+  .fi-video-cam:before {
+    content: "\e90e";
+  }
