@@ -1,16 +1,29 @@
+@import '../../vendor/owl.carousel/src/scss/owl.carousel.scss';
+
 .info-icon {
     margin: -30px;
 }
 
 .about {
     background: url(../../../img/map.png) center center no-repeat;
-    background-size: 50%;
+}
+
+.events{
+    .card small{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
 }
 
 @media only screen and (max-width:767px) {
 
     .landing-section {
         padding: 2em 0 1.5em;
+    }
+    .about {
+        background-size: 110%;
     }
 }
 
@@ -20,5 +33,14 @@
     .landing-section {
         padding: 3em 0;
         overflow: hidden;
+    }
+    .about {
+        background-size: 50%;
+    }
+
+    .card {
+        min-height: 80px;
+    }
+    .gallery img{
     }
 }
